@@ -26,7 +26,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webflux</artifactId>
-            <version>5.3.25</version>
+            <version>6.0.4</version>
         </dependency>
         <dependency>
             <groupId>io.projectreactor.netty</groupId>
@@ -60,7 +60,7 @@
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <version>${kotlin.version}</version>
                 <configuration>
-                    <jvmTarget>1.8</jvmTarget>
+                    <jvmTarget>17</jvmTarget>
                 </configuration>
                 <executions>
                     <execution>
